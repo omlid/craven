@@ -1,0 +1,17 @@
+{
+    "name": "omlid/craven",
+    "version": "0.1",
+    "description": "An asset concatenation package for view-level asset requirements (JS, CSS)",
+    "authors": [
+        {
+            "name": "Erik Omlid",
+            "email": "erik@madfeller.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"Craven": "src/"}
+    },
+    "require": {
+    	"php": ">=5.3.2"
+    }
+}
