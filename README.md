@@ -32,15 +32,17 @@ Craven\Craven::attach([
 <?php
 
 $repo = 'js-footer';
-Craven\Craven::concatenate($repo);
+$output = Craven\Craven::concatenate($repo);
 
+$output->getContents(); // gives you the concatenated content
+$output->getUniqueKey(); // gives you an unique key to use for cacheing
 ?>
 ```
 
 ```php
 <?php
 
-Craven\Craven::concatenate('js-footer');
+$output = Craven\Craven::concatenate('js-footer');
 
 ?>
 ```
