@@ -1,8 +1,9 @@
 <?php
 
-namespace Craven;
+namespace Omlid\Craven;
 
-use Craven\RequireStore;
+use Omlid\Craven\RequireStore;
+use Exception;
 
 class Craven
 {
@@ -27,7 +28,7 @@ class Craven
             $files = array($files);
         }
         if (!is_array($files)) {
-            throw new \Exception('First argument provided in Craven::require is not scalar or an array');
+            throw new Exception('First argument provided in Craven::require is not scalar or an array');
         }
         $require = self::getRequireInstance();
         $require->addFiles($files, $repo);

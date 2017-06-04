@@ -10,7 +10,7 @@ This can be extended on or used in applications to manage compilation of your as
 ```php
 <?php
 
-Craven\Craven::attach('path/to/file.js', 'js-footer');
+Omlid\Craven\Craven::attach('path/to/file.js', 'js-footer');
 
 ?>
 ```
@@ -19,7 +19,7 @@ Craven\Craven::attach('path/to/file.js', 'js-footer');
 ```php
 <?php
 
-Craven\Craven::attach([
+Omlid\Craven\Craven::attach([
 	'path/to/first/file.js',
 	'path/to/second/file.js',
 ], 'js-footer');
@@ -32,7 +32,7 @@ Craven\Craven::attach([
 <?php
 
 $repo = 'js-footer';
-$output = Craven\Craven::concatenate($repo);
+$output = Omlid\Craven\Craven::concatenate($repo);
 
 $output->getContents(); // gives you the concatenated content
 $output->getUniqueKey(); // gives you an unique key to use for cacheing
@@ -42,7 +42,7 @@ $output->getUniqueKey(); // gives you an unique key to use for cacheing
 ```php
 <?php
 
-$output = Craven\Craven::concatenate('js-footer');
+$output = Omlid\Craven\Craven::concatenate('js-footer');
 
 ?>
 ```

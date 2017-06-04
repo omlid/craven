@@ -1,8 +1,8 @@
 <?php
 
-namespace Craven;
+namespace Omlid\Craven;
 
-use Craven\RequireRepo;
+use Omlid\Craven\RequireRepo;
 
 class RequireStore
 {

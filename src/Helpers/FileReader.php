@@ -1,6 +1,6 @@
 <?php
 
-namespace Craven\Helpers;
+namespace Omlid\Craven\Helpers;
 
 class FileReader {
 	public function read($file)

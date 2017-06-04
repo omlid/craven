@@ -1,6 +1,6 @@
 <?php
 
-namespace Craven;
+namespace Omlid\Craven;
 
 class RequireOutput
 {

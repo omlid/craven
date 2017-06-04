@@ -1,9 +1,9 @@
 <?php
 
-namespace Craven;
+namespace Omlid\Craven;
 
-use Craven\RequireOutput;
-use Craven\Helpers\FileReader;
+use Omlid\Craven\RequireOutput;
+use Omlid\Craven\Helpers\FileReader;
 
 class RequireRepo
 {
