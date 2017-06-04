@@ -1,8 +1,8 @@
 <?php
 
-namespace Omlid\Craven;
+namespace Craven;
 
-use Omlid\Craven\RequireStore;
+use Craven\RequireStore;
 use Exception;
 
 class Craven
