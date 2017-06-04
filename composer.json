@@ -8,7 +8,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {"Craven": "src/"}
+        "psr-0": {"Omlid\Craven": "src/"}
     },
     "require": {
     	"php": ">=5.3.2"
