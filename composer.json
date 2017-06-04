@@ -1,6 +1,6 @@
 {
     "name": "omlid/craven",
-    "version": "0.1",
+    "version": "0.1.1",
     "description": "An asset concatenation package for view-level asset requirements (JS, CSS)",
     "authors": [
         {
