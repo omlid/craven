@@ -51,5 +51,4 @@ $output = Craven\Craven::concatenate('js-footer');
 
 * User authentication requires you to include or exclude specific javascript and css on the page
 * Need a better way to store on the fly compacted javascript and css from multiple build sources
-* Gulp / Webpack aren't always the securest way to bundle your frontend code together
-* Views can dictate their needs without having to include the HTML to load the css / javascript
+* Views can dictate their needs without having to include the HTML to load the css / javascript individually
